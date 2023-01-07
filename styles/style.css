@@ -1,31 +1,31 @@
 *{
     margin: 0;
+    padding: 0;
     font-family:' open sans',sans-serif;
 }
 /* banner styles */
 .header{
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: bottom right, left;
-    background: url('../images/banner/banner1.png');
-    background-color: #fff8f3;
+     background: url('../images/banner/banner1.png');
+     width: 100%;
+     height: 100vh;
+     background-size: cover;
+       
 }
 .banner{
-    margin: 0 200px;
-   
     text-align: right;
+    padding: 260px 120px;
 }
+
 .banner-title{
-    padding: 100px 13px 0;
     font-size: 45px;
-    margin-bottom: 15px;
 }
+
 .banner-description{
     font-size: 18px;
     color: black;
     padding: 10px;
     margin-bottom: 10px;
+    line-height: 26px;
 }
 .button{
     color: #fff;
@@ -37,3 +37,127 @@
     border-radius: 5px;
     background: #FD6E0A;
 }
+
+
+.section-title{
+    display: flex;
+ gap: 80px;
+}
+/* .bg-pic{
+ display: flex;
+margin-left: 100px;
+} */
+.section-title{
+    width: 100%;
+}
+.sub-title{  
+   
+    width: 30%;
+    margin-top: 200px;
+}
+.image{
+    width: 70%;
+}
+.descripton{
+   padding: 20px;
+    font-size: 15px;
+    font-weight: 20px;
+
+line-height: 26px;
+}
+.icon{
+    margin-right: 20px;
+}
+
+.plans{
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 250px;
+}
+.plans-title{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 40px;
+}
+.skill{
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/* gradient */
+#grad1{
+    height: 200px;
+    width: 70%;
+    background-image: url(../images/gradient2.png), url('../images/watch.png');
+    position: absolute;
+    left: 230px;
+}
+#grad1 h2{
+    font-size: 40px;
+    line-height: 100px;
+    color: #FFFFFF;
+    left: 294px;
+}
+.btn{
+    padding: 18px 30px;
+    border-radius: 2px;
+    color: coral;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 80px;
+    background: rgba(0, 0, 0, 0.824);
+    padding: 130px 200px;
+    height: 230px;
+}
+.set-title{
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #fff;
+}
+.section-description{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.main{
+    color: #fff;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 35px;
+}
+input{
+    height: 50px;
+    width: 325px;
+    color: white;
+    background:rgba(0, 0, 0, 0.824);
+    border: 1px solid whitesmoke;
+    border-radius: 0.5em;
+}
+.sub-btn{
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: white;
+}
+
